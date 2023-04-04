@@ -1,0 +1,79 @@
+.login-container{
+    width: 100%;
+    height: 100vh ;
+    background: rgb(181, 151, 151);
+    position: relative;
+    .logo{
+        font-size: 70px;
+        font-weight: bold;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 0.5px;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+    .description{
+        font-size:  28px;
+        font-family:cursive;
+        position: absolute;
+        top: 200px;
+        right: 20px;
+        width: 700px;
+    }
+    .img {
+        position: absolute;
+        top: 50px;
+        left: 5px;
+        width: 700px;
+        height: 700px;
+    }
+    .login-form{
+        width: 400px;
+        height: 250px;
+        // padding: 20px;
+        background-color:rgb(181, 151, 151);
+        border-radius: 10px;
+        position: absolute;
+        bottom: 0px;
+        right:100px;
+    }
+    .form-group{
+        // margin-top: 5%;
+        padding: 15px;
+        margin-top: 30px;
+    }
+    .user{
+        margin-top: 20px;
+    }
+    .pass{
+        margin-top: 20px;
+    }
+    .user-label{
+        margin-top: 20px;
+        padding: 15px;
+        margin-top: 20px;
+        font-weight: bolder;
+    }
+
+    .pass-label{
+        margin-top: 20px;
+        padding: 20.5px;
+        font-weight: bolder;
+    }
+    .btn-container{
+        .btn{
+            margin-top: 15px;
+            margin-left: 210px;
+            width:70px;
+            background: rgb(168, 113, 113);
+            border: 0cm;
+            height: 25px;
+        }
+        .error{
+            position:absolute;
+            left: 150px;
+            color: red;
+            bottom:100px;
+        }
+    }
+}
