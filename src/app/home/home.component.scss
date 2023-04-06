@@ -25,9 +25,19 @@
             display:flex;
             justify-content: space-between;
             margin-bottom: 15px;
+            .trend{
+                overflow-x: scroll;
+                display: flex;
+                justify-content: space-between;
             .movie{
+                
+                .cover{
+                    margin-right: 10px;
+                }
                 .detail{
                     width: 180px;
+                    
+
                     .name{
                         font-weight: bold;
                         height: 40px;
@@ -38,7 +48,9 @@
                         font-weight: bold;
                     }
                 }
+                
             }
+        }
         }
     }
     .popular-movies{
