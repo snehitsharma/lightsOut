@@ -15,6 +15,7 @@
                     <div class="detail">
                         <div class="name">{{ movie.name }}</div>
                         <div class="rating">{{ movie.rating }}</div>
+                        
                     </div>
                     </div>
                     
@@ -23,8 +24,49 @@
 
         </div>
 
+    <div class="theatre-movies">
+        <div class="top">
+            <h4>Popular in theatres</h4>
+            <div class="view-all">View All</div>
+        </div>
+        <div class="movie-thumbnail">
+            <div class="trend">
+            <div class="movie" *ngFor="let movie of theatreMovies">
+                <div class="cover">
+                    <img [src]="movie.cover" alt="weg">
+                </div>
+                <div class="detail">
+                    <div class="name">{{ movie.name }}</div>
+                    <div class="rating">{{ movie.rating }}</div>
+                    
+                </div>
+                </div>
+                
+            </div>
+        </div>
+
     </div>
+
     <div class="popular-movies">
-        
+        <div class="top">
+            <h4>All time popular</h4>
+            <div class="view-all">View All</div>
+        </div>
+        <div class="movie-thumbnail">
+            <div class="trend">
+            <div class="movie" *ngFor="let movie of popularMovies">
+                <div class="cover">
+                    <img [src]="movie.cover" alt="weg">
+                </div>
+                <div class="detail">
+                    <div class="name">{{ movie.name }}</div>
+                    <div class="rating">{{ movie.rating }}</div>
+                    
+                </div>
+                </div>
+                
+            </div>
+        </div>
+
     </div>
 </div>

@@ -24,7 +24,7 @@
         .movie-thumbnail{
             display:flex;
             justify-content: space-between;
-            margin-bottom: 15px;
+            margin-bottom: 30px;
             .trend{
                 overflow-x: scroll;
                 display: flex;
@@ -32,7 +32,8 @@
             .movie{
                 
                 .cover{
-                    margin-right: 10px;
+                    margin-right: 20px;
+                   
                 }
                 .detail{
                     width: 180px;
@@ -52,13 +53,9 @@
             }
         }
         }
-    }
-    .popular-movies{
-        width: 25%;
-        min-height: calc(100vh - 70px);
-        padding: 20px 40px;
-        font-family: "Roboto","sans-serif";
 
     }
+    
+    
 
 }
