@@ -35,5 +35,10 @@ export class HomeComponent implements OnInit {
     });
   }
 
+  goToMovie(type:string,id:string){
+    this.route.navigate(['movie',type,id]);
+
+  }
+
 }
 
