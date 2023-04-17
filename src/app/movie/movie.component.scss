@@ -3,6 +3,8 @@
     margin: 0 auto;
     .top{
         display: flex;
+        justify-content: space-between;
+
         .left{
             width: 500px;
             .name {
@@ -28,16 +30,21 @@
             padding-top: 100px;
             .title {
                 margin-bottom: 30px;
+                font-weight: bold;
             }
             .rating-form{
                 .form-group{
                     margin-top: 20px;
+                    .spacing-label{
+                        margin-right: 10px;
+                    }
                 }
                 label{
                     font-weight: bold;
                     margin-bottom: 5px;
                 }
                 textarea {
+                    width: 40%;
                     resize: none;   
                 };
                 .btn-container{
